@@ -1,38 +1,13 @@
 const barang = require("./data/barang");
-const items = require("./data/items");
-const tags = require("./data/tags");
-const brands = require("./data/brands");
-const itemTypes = require("./data/itemTypes");
+const peminjaman = require("./data/peminjaman");
+const pengembalian = require("./data/pengembalian");
+const admin = require("./data/admin");
+const operator = require("./data/operator");
 
 module.exports = {
   barang,
-  items,
-  tags,
-  brands,
-  itemTypes
+  peminjaman,
+  pengembalian,
+  admin,
+  operator
 }
-
-
-// const items = require("./data/items");
-
-// module.exports = () => {
-
-//   var tags = items.map((i) => i.tags);
-//   tags = [].concat.apply([], tags);
-//   tags = [...new Set(tags)];
-
- 
-
-//   var brands = items.map((i) => i.manufacturer);
-//   brands = [...new Set(brands)];
-
-//   var itemTypes = items.map((i) => i.itemType);
-//   itemTypes = [...new Set(itemTypes)];
-
-//   return {
-//     items,
-//     tags,
-//     brands,
-//     itemTypes,
-//   };
-// };
