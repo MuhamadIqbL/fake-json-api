@@ -1,10 +1,10 @@
 <h1 align="center">This Link API Peminjaman Barang</h1>
 
-- GET | POST | PUT | DELETE Data [Barang](https://fake-json-api.vercel.app/barang)
-- GET | POST | PUT | DELETE Data [Peminjaman](https://fake-json-api.vercel.app/peminjaman)
-- GET | POST | PUT | DELETE Data [Pengembalian](https://fake-json-api.vercel.app/pengembalian)
-- GET | POST | PUT | DELETE Data [Admin](https://fake-json-api.vercel.app/admin)
-- GET | POST | PUT | DELETE Data [Operator](https://fake-json-api.vercel.app/operator)
+- GET | POST | PUT | DELETE [Barang](https://fake-json-api.vercel.app/barang)
+- GET | POST | PUT | DELETE [Peminjaman](https://fake-json-api.vercel.app/peminjaman)
+- GET | POST | PUT | DELETE [Pengembalian](https://fake-json-api.vercel.app/pengembalian)
+- GET | POST | PUT | DELETE [Admin](https://fake-json-api.vercel.app/admin)
+- GET | POST | PUT | DELETE [Operator](https://fake-json-api.vercel.app/operator)
 
 ## Barang
 
