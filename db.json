@@ -1,0 +1,116 @@
+{
+  "barang": [
+    {
+      "id": 1,
+      "nama_brg": "Laptop",
+      "jenis_brg": "Elektronik",
+      "stock": "10"
+    },
+    {
+      "nama_brg": "Mouse",
+      "jenis_brg": "Elektronik",
+      "stock": "10",
+      "id": 2
+    },
+    {
+      "id": "3",
+      "nama_brg": "Keyboard",
+      "jenis_brg": "Elektronik",
+      "stock": "10"
+    },
+    {
+      "id": "4",
+      "nama_brg": "Kabel VGA",
+      "jenis_brg": "Elektronik",
+      "stock": "5"
+    },
+    {
+      "id": "5",
+      "nama_brg": "Proyektor InFocus",
+      "jenis_brg": "Elelktronik",
+      "stock": "5"
+    },
+    {
+      "id": "6",
+      "nama_brg": "Kabel HDMI",
+      "jenis_brg": "Elelktronik",
+      "stock": "3"
+    }
+  ],
+  "peminjaman": [
+    {
+      "nama_brg": "laptop",
+      "nama_operator": "Balll",
+      "nama_peminjam": "Iqbal",
+      "kelas_peminjam": "XII",
+      "jurusan_peminjam": "RPL-2",
+      "tanggal_pinjam": "13-07-2023",
+      "status": "Sudah Dikembalikan",
+      "id": 1
+    },
+    {
+      "nama_brg": "laptop",
+      "nama_operator": "Balll",
+      "nama_peminjam": "mBz",
+      "kelas_peminjam": "XII",
+      "jurusan_peminjam": "RPL-2",
+      "tanggal_pinjam": "13-07-2023",
+      "status": "Sudah Dikembalikan",
+      "id": 2
+    }
+  ],
+  "pengembalian": [
+    {
+      "id": 1,
+      "nama_brg": "Laptop",
+      "nama_operator": "Balll",
+      "nama_peminjam": "Iqbal",
+      "kelas_peminjam": "XII",
+      "jurusan_peminjam": "RPL-2",
+      "tanggal_pinjam": "13-07-2023",
+      "tanggal_kembali": "13-07-2023"
+    },
+    {
+      "id": "2",
+      "nama_brg": "laptop",
+      "nama_operator": "Balll",
+      "nama_peminjam": "Iqbal",
+      "kelas_peminjam": "XII",
+      "jurusan_peminjam": "RPL-2",
+      "tanggal_pinjam": "13-07-2023",
+      "tanggal_kembali": "21-08-2023"
+    },
+    {
+      "id": "3",
+      "nama_brg": "laptop",
+      "nama_operator": "Balll",
+      "nama_peminjam": "mBz",
+      "kelas_peminjam": "XII",
+      "jurusan_peminjam": "RPL-2",
+      "tanggal_pinjam": "13-07-2023",
+      "tanggal_kembali": "21-08-2023"
+    }
+  ],
+  "operator": [
+    {
+      "id": 1,
+      "username": "Balll",
+      "password": "Balll123",
+      "jabatan": "Guru"
+    },
+    {
+      "id": 2,
+      "username": "mBz",
+      "password": "mBz00",
+      "jabatan": "Kepala Sekolah"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "mBz",
+      "password": "mBz00",
+      "jabatan": "Kepala Sekolah"
+    }
+  ]
+}

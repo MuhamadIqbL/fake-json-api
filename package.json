@@ -1,15 +1,11 @@
 {
   "name": "api-json",
   "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
+  "description": "Fake API JSON Peminjaman Barang",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [
-    "ninjakodtv, json-server,heroku, node, REST API"
-  ],
-  "author": "Ninjakod TV Mehmet Yılmaz",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
